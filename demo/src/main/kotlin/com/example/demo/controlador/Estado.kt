@@ -13,6 +13,6 @@ data class Mensaje(val message: String)
 class Estado{
     @GetMapping
     fun mostrarEstado(): ResponseEntity<Mensaje>{
-        return ResponseEntity.ok(Mensaje("OK"))
+        return ResponseEntity.ok(Mensaje("ok"))
     }
 }

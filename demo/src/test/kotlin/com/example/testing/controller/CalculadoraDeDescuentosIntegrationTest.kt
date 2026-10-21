@@ -1,4 +1,4 @@
-package com.example.demo.controller
+package com.example.testing.controller
 
 import io.kotest.core.spec.style.BehaviorSpec
 import org.springframework.boot.test.context.SpringBootTest

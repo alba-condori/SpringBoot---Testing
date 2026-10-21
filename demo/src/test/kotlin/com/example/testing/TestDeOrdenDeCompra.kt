@@ -1,5 +1,7 @@
-package com.example.demo
+package com.example.testing
 
+import com.example.testing.model.Item
+import com.example.testing.service.OrdenDeCompra
 import io.kotest.core.spec.style.BehaviorSpec
 import io.kotest.matchers.shouldBe
 

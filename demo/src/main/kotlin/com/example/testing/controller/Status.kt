@@ -1,4 +1,4 @@
-package com.example.demo.controlador
+package com.example.testing.controller
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

@@ -1,6 +1,6 @@
-package com.example.demo.controller
+package com.example.testing.controller
 
-import com.example.demo.service.CalculadoraDeDescuentosService
+import com.example.testing.service.CalculadoraDeDescuentos
 import com.ninjasquad.springmockk.MockkBean
 import io.kotest.core.spec.style.BehaviorSpec
 import io.mockk.every
@@ -13,7 +13,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
 @WebMvcTest(CalculadoraDeDescuentosController::class)
 class CalculadoraDeDescuentosControllerTest(
     private val navegador: MockMvc,
-    @MockkBean private val calculadora: CalculadoraDeDescuentosService,
+    @MockkBean private val calculadora: CalculadoraDeDescuentos,
 ) : BehaviorSpec({
 
     Given("un endpoint para calcular descuentos /api/descuentos") {

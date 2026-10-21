@@ -1,9 +1,9 @@
-package com.example.demo.service
+package com.example.testing.service
 
 import org.springframework.stereotype.Service
 
 @Service
-class CalculadoraDeDescuentosService {
+class CalculadoraDeDescuentos {
 
     fun aplicarDescuentosSegunUsuario(userID: String, monto: Double): Double {
         return monto * 0.75
